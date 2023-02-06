@@ -1,6 +1,10 @@
 @media screen and (max-width : 1400px) {
-   
 }
+
+* {
+   font-family: 'Raleway';
+}
+
 body {
    background: #F0F2F6;
    margin: 0px 30px;
@@ -23,7 +27,6 @@ nav {
    flex-direction: row;
    align-items: center;
    justify-content: center;
-   font-family: 'Raleway';
    font-style: normal;
    font-weight: 400;
    font-size: 16px;
@@ -49,3 +52,10 @@ a:hover {
    color: #0065FC;
    border-top: 2px #0065FC solid;
 }
+
+#TrouvezVotreHebergement form {
+   display: flex;
+   flex-direction: row;
+   padding: 0;
+}
+
