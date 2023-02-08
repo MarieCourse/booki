@@ -2,18 +2,13 @@
 
    * {
       font-family: 'Raleway';
+      font-style: normal;
    }
-
-
 
    body {
       background: white;
       margin: 0 5%;
       max-width: 1400px;
-   }
-
-   h1 {
-      font-family: 'Raleway', sans-serif;
    }
 
    header {
@@ -36,6 +31,12 @@
       line-height: 19px; 
       text-align: center; 
    }
+   #logo {
+      width: 61.09px;
+      height: 19px;
+      left: 0px;
+      top: 0px;
+   }
 
    nav a {
       color: #000000;
@@ -44,34 +45,26 @@
       padding: 30px; 
    }
 
-   header img {
-      width: 61.09px;
-      height: 19px;
-      left: 0px;
-      top: 0px;
-   }
-
    nav a:hover {
       color: #0065FC;
       border-top: 2px #0065FC solid;
    }
-   
-   #TrouvezVotreHebergement h1 {
-      font-family: 'Raleway';
-      font-style: normal;
+
+   .Titres {      
       font-weight: 700;
       font-size: 22px;
       line-height: 26px;
-      margin-bottom: -5px;
-      margin-top: 30px;
    }
 
-   #TrouvezVotreHebergement h2 {
-      font-family: 'Raleway';
-      font-style: normal;
+   .SousTitres {
       font-weight: 400;
       font-size: 16px;
       line-height: 19px;
+   }
+
+   .TitresSecondaires {
+      font-weight: 700;
+      font-size: 18px;
    }
 
    #TrouvezVotreHebergement form {
@@ -146,11 +139,6 @@
       flex-wrap: nowrap;  /*A verifier*/    
    }
 
-   .SousTitres {
-      font-size: 18px;
-      font-weight: 700;
-   }
-
    .Filtres i {
       color: #0065FC;
       padding-right: 10px; 
@@ -186,12 +174,23 @@
       margin-right: 10px;
    }
 
+   #Hebergements {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+   }
+
+   #Hebergements a {
+      text-decoration: none;
+      outline: none;
+   }
+
    #HebergementsAMarseille {
       background-color: #F2F2F2 ;
       padding: 30px 50px 40px 50px;
       border-radius: 15px;
       margin-top: 30px;
-      width: 70%;
+      width: 60%;
       display: flex;
       flex-direction: column;
    }
@@ -204,13 +203,6 @@
       margin-bottom: 20px;
    }
 
-   .CardHebergement img {
-      border-radius: 15px 15px 0 0;
-      object-fit: cover;
-      max-width: 100%;
-      height: 130px;
-   }
-
    .CardHebergement {
       background-color: white;
       border-radius: 20px;
@@ -220,22 +212,24 @@
       margin: 15px 0;
    }
 
-   .CardHebergement a {
-      text-decoration: none;
-      outline: none;
+   .CardHebergement img {
+      border-radius: 15px 15px 0 0;
+      object-fit: cover;
+      max-width: 100%;
+      height: 130px;
    }
-
    .ContainerCard {
       padding-left: 15px;
    }
 
-   .ContainerCard h2 {
+   .CardTitre {
       font-weight: 700;
       font-size: 16px;
       margin-top: 5px;
+      word-wrap: wrap;
    }
 
-   .ContainerCard h3 {
+   .CardSousTitre {
       font-weight: 400;
       font-size: 14px;
       margin-top: -5px;
@@ -249,6 +243,63 @@
 
    .grey-star {
       color: #F2F2F2;
+   }
+
+   #LesPlusPopulaires {
+      background-color: #F2F2F2 ;
+      padding: 30px 50px 40px 50px;
+      border-radius: 15px;
+      margin-top: 30px;
+      width: 25%;
+      display: flex;
+      flex-direction: column;
+   }
+
+   #LesPlusPopulairesChart {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+   }
+
+   .fa-chart-line{
+      color: #0065FC;
+   }
+
+   #CardsHebergementsPopulaires {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+   }
+
+   .CardHebergementPopulaire {
+      background-color: white;
+      border-radius: 20px;
+      padding: 5px;
+      width: 95%;
+      height: 144px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      margin: 15px 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      justify-content: left;
+   }
+
+  .CardHebergementPopulaire img {
+      border-radius: 15px 0 0 15px;
+      object-fit:cover;
+      width: 137px;
+      height: 100%;
+      /*margin-right: 20px;*/
+   }
+
+   .Etoiles {
+      position: relative;
+      top: 45%;
    }
 
 }
