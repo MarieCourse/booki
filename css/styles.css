@@ -178,6 +178,7 @@
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+      margin: 30px 0;
    }
 
    #Hebergements a {
@@ -187,9 +188,8 @@
 
    #HebergementsAMarseille {
       background-color: #F2F2F2 ;
-      padding: 30px 50px 40px 50px;
+      padding: 20px 50px 40px 50px;
       border-radius: 15px;
-      margin-top: 30px;
       width: 60%;
       display: flex;
       flex-direction: column;
@@ -245,17 +245,16 @@
       color: #F2F2F2;
    }
 
-   #LesPlusPopulaires {
+   #ContainerPopulaires {
       background-color: #F2F2F2 ;
-      padding: 30px 50px 40px 50px;
+      padding: 20px 30px 0 30px;
       border-radius: 15px;
-      margin-top: 30px;
       width: 25%;
       display: flex;
       flex-direction: column;
-   }
+      }
 
-   #LesPlusPopulairesChart {
+   #PopulairesChart {
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -266,42 +265,46 @@
       color: #0065FC;
    }
 
-   #CardsHebergementsPopulaires {
+   #ContainerCardsPopulaires {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      flex-wrap: wrap;
-      margin-bottom: 20px;
+
    }
 
-   .CardHebergementPopulaire {
+   .CardPopulaire {
       background-color: white;
       border-radius: 20px;
       padding: 5px;
       width: 95%;
       height: 144px;
       box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-      margin: 15px 0;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
       justify-content: left;
+      margin-top: 15px;
    }
 
-  .CardHebergementPopulaire img {
+  .CardPopulaire img {
       border-radius: 15px 0 0 15px;
       object-fit:cover;
       width: 137px;
       height: 100%;
-      /*margin-right: 20px;*/
+      margin-right: 20px;
    }
 
    .Etoiles {
       position: relative;
-      top: 45%;
+      bottom: -32%;
    }
 
+   .TitresCard {
+      display: flex;
+      flex-direction: column;
+      flex-wrap:wrap ;
+   }
 }
 
 
