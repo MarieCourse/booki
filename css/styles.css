@@ -62,12 +62,7 @@
       line-height: 19px;
    }
 
-   .TitresSecondaires {
-      font-weight: 700;
-      font-size: 18px;
-   }
-
-   #TrouvezVotreHebergement form {
+   #ContainerRecherche form {
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -122,6 +117,11 @@
    .fa-magnifying-glass {
       display: none;
       color: white;
+   }
+
+   .TitresSecondaires {
+      font-weight: 700;
+      font-size: 18px;
    }
 
    .Filtres {
@@ -187,7 +187,7 @@
       outline: none;
    }
 
-   #HebergementsAMarseille {
+   #ContainerMarseille {
       background-color: #F2F2F2 ;
       padding: 20px 50px 40px 50px;
       border-radius: 15px;
@@ -196,7 +196,7 @@
       flex-direction: column;
    }
 
-   #CardsHebergementsAMarseille {
+   #ContainerCardsMarseille {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
@@ -204,7 +204,7 @@
       margin-bottom: 20px;
    }
 
-   .CardHebergement {
+   .CardMarseille {
       background-color: white;
       border-radius: 20px;
       padding: 5px;
@@ -213,7 +213,7 @@
       margin: 15px 0;
    }
 
-   .CardHebergement img {
+   .CardMarseille img {
       border-radius: 15px 15px 0 0;
       object-fit: cover;
       max-width: 100%;
@@ -301,7 +301,7 @@
       bottom: -32%;
    }
 
-   .TitresCard {
+   .CardContenu {
       display: flex;
       flex-direction: column;
       flex-wrap:wrap ;
@@ -336,7 +336,6 @@
 
    .CardActivite h2 {
       padding: 5px 0 0 20px;
-
    }
 
    a {
