@@ -251,15 +251,13 @@
       font-weight: 700;
       font-size: 16px;
       margin: 6px 0;
-      word-wrap: wrap;
-   }
+      }
 
    .card-sous-titre {
       font-weight: 400;
       font-size: 14px;
       margin: 6px 0;
-      text-justify: center;
-   }
+      }
 
    .card-contenu-etoiles {
       display: flex;
@@ -628,7 +626,7 @@
       margin: 20px;
     }
 
-    #populaires-chart h1 {
+    #populaires-chart h2 {
       width: 60%;
       flex-wrap: nowrap;
     }
