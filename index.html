@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>Trouvez votre hébergement pour des vacances de rêve</title>
-    <meta name="viewport" content="width=devide-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Include font awesome -->
     <script
       src="https://kit.fontawesome.com/f111a17744.js"
@@ -26,10 +26,12 @@
   <body>
     <!--Header avec nav-->
     <header>
-      <img id="logo" src="images-booki/logo/Booki.png" alt="Logo-Booki" />
+      <a href="#">
+        <img id="logo" src="images-booki/logo/Booki.png" alt="Logo-Booki" />
+      </a>
       <nav>
-        <a href="#Hebergements">Hébergements</a>
-        <a href="#Activites">Activités</a>
+        <a href="#hebergements">Hébergements</a>
+        <a href="#activites">Activités</a>
       </nav>
     </header>
 
@@ -40,8 +42,8 @@
           Trouvez votre hébergement pour des vacances de rêve
         </h1>
         <h2 class="sous-titres">En plein centre-ville ou en pleine nature</h2>
-        <div>
-          <form action="" method="get">
+        <div id="recherche">
+          <form action="#">
             <i class="fa-sharp fa-solid fa-location-dot"></i>
             <input
               id="barre-recherche"
@@ -63,22 +65,22 @@
       <div id="filtres-titre">
         <p class="titres-secondaires">Filtres</p>
         <div id="filtres-recherche">
-          <div class="filtres">
+          <a href="#" class="filtres">
             <i class="fa-solid fa-money-bill-wave"></i>
             <h3>Économique</h3>
-          </div>
-          <div class="filtres">
+          </a>
+          <a href="#" class="filtres">
             <i class="fa-solid fa-person"></i>
             <h3>Familial</h3>
-          </div>
-          <div class="filtres">
+          </a>
+          <a href="#" class="filtres">
             <i class="fa-solid fa-heart"></i>
             <h3>Romantique</h3>
-          </div>
-          <div class="filtres">
+          </a>
+          <a href="#" class="filtres">
             <i class="fa-solid fa-dog"></i>
             <h3>Animaux autorisés</h3>
-          </div>
+          </a>
         </div>
       </div>
 
@@ -361,7 +363,7 @@
                 src="images-booki/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
                 alt="Notre-Dame-de-la-Garde"
               />
-              <h2 class="card-titre">Notre-Dame-de-la-Garde</h2>
+              <h2 class="card-titre notre-dame">Notre-Dame-de-la-Garde</h2>
             </a>
           </div>
         </div>
