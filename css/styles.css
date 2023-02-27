@@ -50,7 +50,7 @@
    }
 
    nav a {
-      width: 160px;
+      width: 140px;
       color: #000000;
       text-decoration: none;
       display: flex; 
@@ -253,6 +253,7 @@
    }
 
    .card-marseille img {
+      width: 100%;
       border-radius: 15px 15px 0 0;
       object-fit: cover;
       max-width: 100%;
@@ -435,8 +436,8 @@
    }
 
    nav a {
+      width: 100px;
       justify-content: right;
-      width: 120px;
    }
 
    .titres {
