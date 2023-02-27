@@ -136,7 +136,8 @@
       line-height: 21px;
       text-align: center;
       color: #FFFFFF;
-      padding: 12px 20px;   
+      padding: 12px 20px;
+      cursor: pointer;  
    }
 
    .fa-magnifying-glass {
@@ -481,6 +482,7 @@
       margin: 20px 0;
       padding: 0;
       width: 100%;
+      justify-content: left;
    }
    .filtres h3 {
       margin: 0 5px;
